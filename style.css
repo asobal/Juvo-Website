@@ -15,10 +15,24 @@
         position: relative;
     }
     a.skip-link {
-     color: #00273a;
+      position: absolute;
+    left: -999px;
+    top: -999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    /* Add styling to make it visible, e.g., for high contrast */
+    background: white;
+    color: black;
+    padding: 10px;
+    z-index: 1000;
     }
     a.skip-link:focus {
-     color: #f4f6f7;
+      position: static;
+    width: auto;
+    height: auto;
+    left: 0;
+    top: 0;
     }
 /*-- Menu text stuff (home, about, other contact--------------------------------------------------------------------------*/
         nav{
