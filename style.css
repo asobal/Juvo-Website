@@ -204,7 +204,7 @@
         padding-top: 100px;
     }
  
-    .solution h1{
+    .solution h2{
         font-size: 40px;
         font-weight: 600;
         padding-bottom: 20px;
@@ -262,7 +262,7 @@
         padding-bottom: 50px;
         align-items: center;
     }
-    .component-us h1{
+    .component-us h2{
         text-align: center;
         font-size: 40px;
         padding-top: 50px;
@@ -287,7 +287,7 @@
         padding: 0px 15px;
         
     }
-    .component-text h2{
+    .component-text h3{
         padding-top: 20%;
         font-size: 32px;
         flex: 1;
@@ -301,7 +301,7 @@
         .row, .text-first {
             flex-direction: column; 
         }
-        .component-us h1{
+        .component-us h2{
             padding-bottom: 0px;
             padding-top: 0px;
         }
@@ -309,7 +309,7 @@
             font-size: 18px;
             padding-bottom: 15px;
         }
-        .component-text h2{
+        .component-text h3{
             padding-top: 20px;
             font-size: 25px;
         }
@@ -333,7 +333,7 @@
         text-align: center;
         justify-content: center;
     }
-    .purpose h1{
+    .purpose h2{
         font-size: 40px;
         padding-top: 50px;
         padding-bottom: 10px;
@@ -363,7 +363,7 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.338);
     }
     @media(max-width: 900px){
-        .purpose h1{
+        .purpose h2{
             padding-top: 0px;
         }
         .purpose p{
@@ -379,7 +379,7 @@
         padding-top: 100px;
     }
     
-    .commit h1{
+    .commit h2{
         text-align: center;
         font-size: 40px;
         padding-top: 50px;
@@ -406,7 +406,7 @@
         padding: 0;
         font-size: 20px;
     }
-    .commit-col h2{
+    .commit-col h3{
         margin-top: 16px;
         margin-bottom: 15px;
         text-align: center;
@@ -421,10 +421,10 @@
              width: 90%;
             padding: 2.5%;  
         }
-        .commit h1{
+        .commit h2{
             padding-top:0px;
         }
-        .commit h2{
+        .commit h3{
             padding-top: 20px;
             font-size: 25px;
         }
@@ -461,13 +461,13 @@
         text-align: center;
         padding: 100px 0;
      }
-     .cta h1{
+     .cta h2{
         color: #fff;
         margin-bottom: 40px;
         padding: 0;
      }
      @media(max-width: 700px){
-        .cta h1{
+        .cta h2{
             font-size: 24px;
         }
      }
@@ -508,7 +508,7 @@
         background-size: cover;
         position: relative;
     }
-    .sub-header h1{
+    .sub-header h2{
         margin-top: 0px;
         text-align: center;
         color: #fff;
@@ -528,7 +528,7 @@
     .about-col img{
         width: 600px;
     }
-    .about-col h1{
+    .about-col h2{
         padding-top: 0;
     }
     .about-col p{
