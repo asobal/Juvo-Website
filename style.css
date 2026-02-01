@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+    
+/*---Hero Section--------------------------------------------------------------------------*/
+    .hero{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(31, 31, 31, 0.737)), url(Images/Swimmers_In_Lanes.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+/*-- Menu text stuff (home, about, other contact--------------------------------------------------------------------------*/
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2% 6%;
+            overflow: hidden;
+            min-height: 50px;
+            max-height: 75px;
+            background-color: #00273a;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            
+        }
+        .JUVO a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            
+        }
+        .nav-links{
+            flex: 1;
+            text-align: right;
+        }
+        .nav-links ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+            
+        }
+        .nav-links ul li a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .nav-links ul li::after{
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+        .nav-links ul li:hover::after{
+            width: 100%;
+        }
+        .userway{
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+
+        @media(max-width: 700px){
+            .nav-links ul li{
+                padding-right: 20PX;
+            }
+        }
+    /*--NavCap Header plus it's text*/
+        .text-box{
+            width: 90%;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .text-box h1{
+            font-size: 62px;
+
+        }
+        .text-box p{
+            margin: 10px 0 40px;
+            font-size: 20px;
+            color: #fff;
+        }
+    /*--Makes Visit Us to Know More button*/
+        .hero-btn{
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 12px 34px;
+            font-size: 13px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+        }
+            .hero-btn:hover{
+                border: 1px solid #A5271E;
+                background: #A5271E;
+                transition: 1s;
+            }
+
+        nav .fa{
+            display:none;
+        }
+        /*--Makes it phone friendly--*/
+        @media(max-width: 700px){
+        .text-box h1{ 
+            font-size: 40px;
+        }
+            
+        }
+
+/*--Format thing-------------------------------------------------------------------------*/
+    
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    @media(max-width: 800px){
+        .row{
+            flex-direction: column;
+        }
+    }
+
+/*------Why It's Needed------------Why It's Needed------------Why It's Needed------------Why It's Needed------*/
+    
+    .need{
+        width: 100%;
+    }
+ 
+    .need h1{
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .need_con{
+        position:relative;
+        width: 95%;
+        left: 2.5%;
+        padding-bottom: 50px;
+        
+    }
+    .need img{
+        width: 600px;
+        float: left;
+        padding: 25px;
+    }
+    .need figcaption {
+        font-size: 0.8em; 
+        text-align: center; 
+        margin-top: 5px; 
+    }
+    .need p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        padding: 20px;
+        padding-top: 4%;
+        
+    }
+    
+    
+
+    @media(max-width: 900px){
+        .need{
+            flex-direction: column;
+            padding-bottom: 0px;
+        }
+        .need p{
+            font-size: 18px;
+            padding-bottom: 5px;
+        }
+        .need img{
+            width: 95%; 
+            padding: 2.5%;  
+        }
+    }
+
+/*<!------Our Solution------------Our Solution------------Our Solution------------Our Solution------------Our Solution------>*/
+
+    .solution{
+        width: 100%;
+        padding-top: 100px;
+    }
+ 
+    .solution h1{
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .solution-con{
+        position:relative;
+        width: 95%;
+        left: 2.5%;
+        padding-bottom: 50px;
+        
+    }
+    .solution p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        padding: 20px;
+        padding-top: 4%;
+        
+    }
+    
+    .solution img{
+        width: 400px;
+        float: right;
+        padding: 25px;
+        
+        
+    }
+    
+    @media(max-width: 900px){
+        .solution{
+            flex-direction: column;
+            padding-bottom: 0px;
+        }
+        .solution img{
+            display: none;   
+            padding-bottom: 15px;
+        }
+        
+        .solution p{
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+    }
+
+/*<!------How It Works------------How It Works------------How It Works------------How It Works------------How It Works------>*/    
+    .component-us{
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+    .component-us h1{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .img-first {
+        flex-direction: row-reverse; 
+    }
+    
+    .text-first {
+    flex-direction: row-reverse; 
+    }
+    .component-text{
+        flex-basis: 48%;
+        padding: 5px 2px;
+    }
+    .component-col img{
+        flex: 2;
+        width: 400px;
+        height: 350px;
+        border-radius: 25%;
+        padding: 0px 15px;
+        
+    }
+    .component-text h2{
+        padding-top: 20%;
+        font-size: 32px;
+        flex: 1;
+    }
+    .component-text p{
+        padding: 15px 0px;
+        font-size: 20px;
+        flex: 1;
+    }
+    @media (max-width: 900px) {
+        .row, .text-first {
+            flex-direction: column; 
+        }
+        .component-us h1{
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+        .component-text p{
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+        .component-text h2{
+            padding-top: 20px;
+            font-size: 25px;
+        }
+        .component-col img{
+            width: 90%;
+            padding: 2.5%;
+        }
+        .component-col {
+            order: 1; 
+        }
+        .component-text {
+            order: 2; 
+        }
+    }
+   
+/*------Purposeful Design-------------Purposeful Design-------------Purposeful Design-------------Purposeful Design-------*/
+    .purpose{
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+    .purpose h1{
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .purpose p{
+        font-size: 20px;
+    }
+    .purpose-col{
+        flex-direction: column; 
+        gap: 20px; 
+        max-width: 800px; 
+        margin: 0 auto; 
+        margin-top: 5%;
+        display: flex;
+    }
+    .purpose-box p {
+            line-height: 1.5;
+            font-size: 20px;
+            padding: 0;
+        }
+    .purpose-box {
+        display: flex;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #d3d3d3;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.338);
+    }
+    @media(max-width: 900px){
+        .purpose h1{
+            padding-top: 0px;
+        }
+        .purpose p{
+            font-size: 18px;
+        }
+    }
+
+/*------Our Commitment------------Our Commitment------------Our Commitment------------Our Commitment------------Our Commitment------*/
+    .commit{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .commit h1{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .commit-col{
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .commit-col img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .commit-col i{
+        border-radius: 10px;
+        font-size: 200px;
+        text-align: center;
+        width: 100%;
+        color: #00273a;
+    }
+    .commit-col p{
+        padding: 0;
+        font-size: 20px;
+    }
+    .commit-col h2{
+        margin-top: 16px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 30px;
+    }
+    @media(max-width: 700px){
+        .commit{
+            flex-direction: column;
+            padding-bottom: 0px;
+        }
+        .commit i{
+             width: 90%;
+            padding: 2.5%;  
+        }
+        .commit h1{
+            padding-top:0px;
+        }
+        .commit h2{
+            padding-top: 20px;
+            font-size: 25px;
+        }
+        .commit p{
+            font-size: 18px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<!--------Call To Action--------------Call To Action--------------Call To Action--------------Call To Action------>*/
+     .cta{
+        margin: 100px auto;
+        width: 85%;
+        background-image: linear-gradient(rgba(58, 58, 58, 0.621)),url(Images/Group_Carrying.JPG);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0;
+     }
+     .cta h1{
+        color: #fff;
+        margin-bottom: 40px;
+        padding: 0;
+     }
+     @media(max-width: 700px){
+        .cta h1{
+            font-size: 24px;
+        }
+     }
+
+
+
+/*<!------Footer------------Footer------------Footer------------Footer------------Footer------------Footer------------Footer------>*/
+     .footer{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+     }
+     .footer h4{
+        margin-bottom: 25px;
+        margin-top: 10px;
+        font-weight: 600;
+     }
+     .icons .fa{
+        color: #f44336;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
+     }
+     .icons a{
+         text-decoration: none;
+     }
+
+
+
+
+/*<!------Opening About------------Opening About------------Opening About------------Opening About------------Opening About-------->*/
+
+    .sub-header{
+        height: 75vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7)), url(Images/Group_Carrying.JPG);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .sub-header h1{
+        margin-top: 0px;
+        text-align: center;
+        color: #fff;
+    }
+ 
+    /*<!------About Us------------About Us------------About Us------------About Us------------About Us------------About Us------>*/
+    .about-us{
+        width: 90%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .about-col{
+        flex-basis: 48%;
+        padding: 30px 2px;
+    }
+    .about-col img{
+        width: 600px;
+    }
+    .about-col h1{
+        padding-top: 0;
+    }
+    .about-col p{
+        padding: 15px 0;
+        font-size: 18px;
+    }
+    @media(max-width: 900px){
+        .about-col img{
+            width: 95%; 
+            padding: 2.5%; 
+        }
+    }
+/*<!------Photo Gallery------------Photo Gallery------------Photo Gallery------------Photo Gallery------------Photo Gallery------>*/
+    
+    .gallery{
+        width: 90%;
+        margin: auto;
+        padding: 5%;
+    }
+    .group{
+        flex-basis: 50%;
+        
+    }
+    .group img{
+        width: 500px;
+    }
+    @media(max-width: 900px){
+        .group img{
+            width: 95%; 
+            padding: 2.5%; 
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
