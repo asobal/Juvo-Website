@@ -43,7 +43,7 @@
             overflow: hidden;
             min-height: 50px;
             max-height: 75px;
-            background-color: #00273a;
+            background-color: #c5034b;
             text-align: center;
             position: sticky;
             top: 0;
@@ -420,7 +420,7 @@
         font-size: 200px;
         text-align: center;
         width: 100%;
-        color: #00273a;
+        color: #c5034b;
     }
     .commit-col p{
         padding: 0;
