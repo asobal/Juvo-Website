@@ -50,6 +50,9 @@
             z-index: 999;
             
         }
+        nav img{
+            width: 150px;
+        }
         .JUVO a{
             color: #fff;
             text-decoration: none;
