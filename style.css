@@ -753,12 +753,6 @@
 #uw-page.uw-text-3 { font-size: 1.35rem; }
 #uw-page.uw-text-4 { font-size: 1.5rem; }
 
-#uw-page.uw-text-2 .hero h1,
-#uw-page.uw-text-3 .hero h1,
-#uw-page.uw-text-4 .hero h1 {
-  font-size: calc(1em * 1.2);
-}
-
 #uw-page.uw-text-2 .hero p,
 #uw-page.uw-text-3 .hero p,
 #uw-page.uw-text-4 .hero p {
