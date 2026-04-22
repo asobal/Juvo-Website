@@ -528,7 +528,7 @@
         color: #fff;
     }
  
-/*<!------About Us------------About Us------------About Us------------About Us------------About Us------------About Us------>*/
+    /*<!------About Us------------About Us------------About Us------------About Us------------About Us------------About Us------>*/
     .about-us{
         width: 90%;
         margin: auto;
@@ -752,9 +752,9 @@
 }
 
 /* Text Size */
-#uw-page.uw-text-2 { font-size: 1.05em; }
-#uw-page.uw-text-3 { font-size: 1.1em; }
-#uw-page.uw-text-4 { font-size: 1.15em; }
+#uw-page.uw-text-2 * { font-size: 1.05em !important; }
+#uw-page.uw-text-3 * { font-size: 1.1em !important; }
+#uw-page.uw-text-4 * { font-size: 1.15em !important; }
 
 #uw-page.uw-text-2 .hero h1,
 #uw-page.uw-text-3 .hero h1,
