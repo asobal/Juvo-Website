@@ -759,8 +759,8 @@
   font-size: calc(1em * 1.15);
 }
 
-#uw-page.uw-text-2 .hero h1 { font-size: 4vw !important; }
-#uw-page.uw-text-3 .hero h1 { font-size: 6vw !important; }
+#uw-page.uw-text-2 .hero h1 { font-size: 6vw !important; }
+#uw-page.uw-text-3 .hero h1 { font-size: 7vw !important; }
 #uw-page.uw-text-4 .hero h1 { font-size: 8vw !important; }
 
 /* Text spacing */
