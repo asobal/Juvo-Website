@@ -1,9 +1,12 @@
+
+/*---General--------------------------------------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
-    
+
+
 /*---Hero Section--------------------------------------------------------------------------*/
     .hero{
         min-height: 100vh;
@@ -160,6 +163,7 @@
         }
     }
 
+  
 /*------Why It's Needed------------Why It's Needed------------Why It's Needed------------Why It's Needed------*/
     
     .need{
@@ -454,25 +458,7 @@
             font-size: 18px;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*<!--------Call To Action--------------Call To Action--------------Call To Action--------------Call To Action------>*/
+    /*<!--------Call To Action--------------Call To Action--------------Call To Action--------------Call To Action------>*/
      .cta{
         margin: 100px auto;
         width: 85%;
@@ -493,8 +479,6 @@
             font-size: 24px;
         }
      }
-
-
 
 /*<!------Footer------------Footer------------Footer------------Footer------------Footer------------Footer------------Footer------>*/
      .footer{
@@ -517,6 +501,7 @@
          text-decoration: none;
          color: #f44336;
      }
+
 
 
 
@@ -591,9 +576,6 @@
             padding: 2.5%; 
         }
     }
-
-
-
 
 
 
