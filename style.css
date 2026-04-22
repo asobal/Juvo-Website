@@ -762,9 +762,21 @@
 }
 
 /* Text Size */
-#uw-page.uw-text-2 { font-size: 1.1rem; }
-#uw-page.uw-text-3 { font-size: 1.2rem; }
-#uw-page.uw-text-4 { font-size: 1.3rem; }
+html {
+  font-size: 16px;
+}
+
+html.uw-text-2 {
+  font-size: 17.6px; /* 1.1x */
+}
+
+html.uw-text-3 {
+  font-size: 19.2px; /* 1.2x */
+}
+
+html.uw-text-4 {
+  font-size: 20.8px; /* 1.3x */
+}
 
 #uw-page.uw-text-2 .hero h1,
 #uw-page.uw-text-3 .hero h1,
