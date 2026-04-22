@@ -767,26 +767,30 @@
 }
 
 /* Text Size */
-#uw-page.uw-text-1 { font-size: 1rem; }
-#uw-page.uw-text-2 { font-size: 1.25rem; }
-#uw-page.uw-text-3 { font-size: 1.35rem; }
-#uw-page.uw-text-4 { font-size: 1.5rem; }
-
-#uw-page.uw-text-2 .hero h1,
-#uw-page.uw-text-3 .hero h1,
-#uw-page.uw-text-4 .hero h1 {
-  font-size: calc(1em * 1.2);
+/* === ACCESSIBILITY TEXT SCALING FIX === */
+#uw-page.uw-text-1 {
+  --uw-scale: 1;
 }
 
-#uw-page.uw-text-2 .hero p,
-#uw-page.uw-text-3 .hero p,
-#uw-page.uw-text-4 .hero p {
-  font-size: calc(1em * 1.15);
+#uw-page.uw-text-2 {
+  --uw-scale: 1.15;
 }
 
-#uw-page.uw-text-2 .hero h1 { font-size: 6vw !important; }
-#uw-page.uw-text-3 .hero h1 { font-size: 8vw !important; }
-#uw-page.uw-text-4 .hero h1 { font-size: 10vw !important; }
+#uw-page.uw-text-3 {
+  --uw-scale: 1.3;
+}
+
+#uw-page.uw-text-4 {
+  --uw-scale: 1.5;
+}
+
+/* Apply scaling to actual content */
+#uw-page.uw-text-1 *,
+#uw-page.uw-text-2 *,
+#uw-page.uw-text-3 *,
+#uw-page.uw-text-4 * {
+  font-size: calc(var(--uw-scale, 1) * 1em) !important;
+}
 
 /* Text spacing */
 #uw-page.uw-space-light * { letter-spacing: 1px !important; }
