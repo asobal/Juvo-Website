@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     .filter(c => !c.startsWith("uw-"))
     .join(" ");
 
+  body.style.setProperty("--uw-scale", "1");
+
   document.querySelectorAll(".uw-box button").forEach(btn => {
     btn.classList.remove("active");
   });
@@ -54,9 +56,9 @@ function setActive(group, selectedBtn) {
     clear("uw-text-");
     body.style.setProperty("--uw-scale", {
         "1": "1",
-        "2": "1.15",
-        "3": "1.3",
-        "4": "1.5"
+        "2": "1.08",
+        "3": "1.16",
+        "4": "1.25"
         }[this.dataset.size]);
 
     setActive("[data-size]", this);
