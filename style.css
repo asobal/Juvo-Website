@@ -748,32 +748,21 @@
 }
 
 /* Text Size */
-/*#uw-page.uw-text-1 { font-size: 1rem; }
-#uw-page.uw-text-2 { font-size: 1.25rem; }
-#uw-page.uw-text-3 { font-size: 1.35rem; }
-#uw-page.uw-text-4 { font-size: 1.5rem; }
-*/
+#uw-page.uw-text-1 { font-size: 1rem; }
+#uw-page.uw-text-2 { font-size: 1.2rem; }
+#uw-page.uw-text-3 { font-size: 1.3rem; }
+#uw-page.uw-text-4 { font-size: 1.45rem; }
 
-#uw-page.uw-text-2,
-#uw-page.uw-text-3,
-#uw-page.uw-text-4 {
-  font-size: calc(1em * 1.15);
-}
-#uw-page.uw-text-2 .hero h1,
-#uw-page.uw-text-3 .hero h1,
-#uw-page.uw-text-4 .hero h1 {
-  font-size: calc(1em * 1.15);
-}
 #uw-page.uw-text-2 .hero p,
 #uw-page.uw-text-3 .hero p,
 #uw-page.uw-text-4 .hero p {
   font-size: calc(1em * 1.15);
 }
-/*
+
 #uw-page.uw-text-2 .hero h1 { font-size: 4vw !important; }
 #uw-page.uw-text-3 .hero h1 { font-size: 6vw !important; }
 #uw-page.uw-text-4 .hero h1 { font-size: 8vw !important; }
-*/
+
 /* Text spacing */
 #uw-page.uw-space-light * { letter-spacing: 1px !important; }
 #uw-page.uw-space-med * { letter-spacing: 2px !important; }
