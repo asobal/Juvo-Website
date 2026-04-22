@@ -662,9 +662,8 @@ body {
 
 #uw-panel,
 #uw-panel * {
-  font-size: 14px; /* keeps widget readable and stable */
+  font-size: 14px;
 }
-
 #uw-panel h2 {
   font-size: 18px;
   font-weight: 600;
@@ -792,9 +791,6 @@ body {
 /* Only scale real text elements, NOT everything */
 #uw-page {
   --uw-scale: 1;
-}
-
-#uw-page {
   font-size: calc(1rem * var(--uw-scale));
 }
 
