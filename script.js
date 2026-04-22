@@ -52,7 +52,12 @@ function setActive(group, selectedBtn) {
   document.querySelectorAll("[data-size]").forEach(btn => {
   btn.addEventListener("click", function () {
     clear("uw-text-");
-    body.classList.add("uw-text-" + this.dataset.size);
+    body.style.setProperty("--uw-scale", {
+        "1": "1",
+        "2": "1.15",
+        "3": "1.3",
+        "4": "1.5"
+        }[this.dataset.size]);
 
     setActive("[data-size]", this);
   });

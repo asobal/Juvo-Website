@@ -4,6 +4,14 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
     
 /*---Hero Section--------------------------------------------------------------------------*/
     .hero{
@@ -109,7 +117,7 @@
             text-align: center;
         }
         .text-box h1{
-            font-size: 62px;
+            font-size: 3.5rem;
 
         }
         .text-box p{
@@ -168,7 +176,7 @@
     }
  
     .need h2{
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
         padding-bottom: 20px;
         margin: auto;
@@ -228,7 +236,7 @@
     }
  
     .solution h2{
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
         padding-bottom: 20px;
         margin: auto;
@@ -287,7 +295,7 @@
     }
     .component-us h2{
         text-align: center;
-        font-size: 40px;
+        font-size: 2.5rem;
         padding-top: 50px;
         padding-bottom: 10px;
     }
@@ -317,7 +325,7 @@
     }
     .component-text p{
         padding: 15px 0px;
-        font-size: 20px;
+        font-size: 1.25rem;
         flex: 1;
     }
     @media (max-width: 900px) {
@@ -427,7 +435,7 @@
     }
     .commit-col p{
         padding: 0;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .commit-col h3{
         margin-top: 16px;
@@ -767,29 +775,13 @@
 }
 
 /* Text Size */
-/* === ACCESSIBILITY TEXT SCALING FIX === */
-#uw-page.uw-text-1 {
+#uw-page {
   --uw-scale: 1;
 }
 
-#uw-page.uw-text-2 {
-  --uw-scale: 1.15;
-}
-
-#uw-page.uw-text-3 {
-  --uw-scale: 1.3;
-}
-
-#uw-page.uw-text-4 {
-  --uw-scale: 1.5;
-}
-
-/* Apply scaling to actual content */
-#uw-page.uw-text-1 *,
-#uw-page.uw-text-2 *,
-#uw-page.uw-text-3 *,
-#uw-page.uw-text-4 * {
-  font-size: calc(var(--uw-scale, 1) * 1em) !important;
+/* Apply scaling consistently across ALL text */
+#uw-page * {
+  font-size: calc(var(--uw-scale) * 1em) !important;
 }
 
 /* Text spacing */
