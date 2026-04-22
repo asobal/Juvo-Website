@@ -647,6 +647,10 @@
   padding: 18px;
 }
 
+#uw-page {
+  font-size: 16px;
+}
+
 #uw-panel h2 {
   font-size: 18px;
   font-weight: 600;
@@ -741,12 +745,12 @@
 }
 
 /* Contrast: invert, light, and dark */
-#uw-page.uw-contrast-invert {
+#uw-page.uw-contrast-invert,
+#uw-page.uw-contrast-invert * {
   filter: invert(1) hue-rotate(180deg) !important;
   background-color: #000 !important;
   color: #fff !important;
 }
-
 
 #uw-page.uw-contrast-light {
   background-color: #ffffff !important;
@@ -769,10 +773,9 @@
 }
 
 /* Text Size */
-#uw-page.uw-text-1 { font-size: 1rem; }
-#uw-page.uw-text-2 { font-size: 1.25rem; }
-#uw-page.uw-text-3 { font-size: 1.35rem; }
-#uw-page.uw-text-4 { font-size: 1.5rem; }
+#uw-page.uw-text-2 * { font-size: 1.25em !important; }
+#uw-page.uw-text-3 * { font-size: 1.35em !important; }
+#uw-page.uw-text-4 * { font-size: 1.5em !important; }
 
 #uw-page.uw-text-2 .hero h1,
 #uw-page.uw-text-3 .hero h1,
