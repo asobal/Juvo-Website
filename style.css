@@ -637,9 +637,6 @@
   padding: 18px;
 }
 
-#uw-panel * {
-  font-size: initial !important;
-}
 #uw-panel h2 {
   font-size: 18px;
   font-weight: 600;
