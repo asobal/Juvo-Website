@@ -3,15 +3,6 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
-
-html {
-  font-size: 20px;
-}
-
-body {
-  font-size: 1rem;
-  line-height: 1.6;
-}
     
 /*---Hero Section--------------------------------------------------------------------------*/
     .hero{
@@ -610,7 +601,7 @@ body {
 
 /*<!------Accessibility Menu------------Accessibility Menu------------Accessibility Menu------------Accessibility Menu------------Accessibility Menu------------>*/
 
-/* Floating button for widget */
+/* Floating button */
 #uw-widget {
   position: fixed;
   top: 20px;
@@ -753,7 +744,7 @@ body {
   width: 400px;
 }
 
-/* Contrast: light and dark */
+/* Contrast: light, and dark */
 #uw-page.uw-contrast-light {
   background-color: #ffffff !important;
   color: #000000 !important;
@@ -775,29 +766,26 @@ body {
 }
 
 /* Text Size */
-#uw-page {
-  --uw-scale: 1;
+#uw-page.uw-text-1 { font-size: 1rem; }
+#uw-page.uw-text-2 { font-size: 1.25rem; }
+#uw-page.uw-text-3 { font-size: 1.35rem; }
+#uw-page.uw-text-4 { font-size: 1.5rem; }
+
+#uw-page.uw-text-2 .hero h1,
+#uw-page.uw-text-3 .hero h1,
+#uw-page.uw-text-4 .hero h1 {
+  font-size: calc(1em * 1.2);
 }
 
-/* Apply scaling consistently across ALL text */
-#uw-page {
-  --uw-scale: 1;
+#uw-page.uw-text-2 .hero p,
+#uw-page.uw-text-3 .hero p,
+#uw-page.uw-text-4 .hero p {
+  font-size: calc(1em * 1.15);
 }
 
-/* Only scale real text elements, NOT everything */
-#uw-page p,
-#uw-page span,
-#uw-page a,
-#uw-page li,
-#uw-page button,
-#uw-page h1,
-#uw-page h2,
-#uw-page h3,
-#uw-page h4,
-#uw-page h5,
-#uw-page h6 {
-  font-size: calc(var(--uw-scale) * var(--base-font, 1em));
-}
+#uw-page.uw-text-2 .hero h1 { font-size: 6vw !important; }
+#uw-page.uw-text-3 .hero h1 { font-size: 8vw !important; }
+#uw-page.uw-text-4 .hero h1 { font-size: 10vw !important; }
 
 /* Text spacing */
 #uw-page.uw-space-light * { letter-spacing: 1px !important; }

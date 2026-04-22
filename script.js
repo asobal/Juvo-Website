@@ -1,6 +1,7 @@
+
 document.addEventListener("DOMContentLoaded", function () {
 
-  const body = document.body;
+  const body = document.getElementById("uw-page");
 
   function clear(prefix) {
     body.className = body.className
@@ -25,8 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     .split(" ")
     .filter(c => !c.startsWith("uw-"))
     .join(" ");
-
-  body.style.setProperty("--uw-scale", "1");
 
   document.querySelectorAll(".uw-box button").forEach(btn => {
     btn.classList.remove("active");
@@ -54,12 +53,7 @@ function setActive(group, selectedBtn) {
   document.querySelectorAll("[data-size]").forEach(btn => {
   btn.addEventListener("click", function () {
     clear("uw-text-");
-    body.style.setProperty("--uw-scale", {
-        "1": "1",
-        "2": "1.08",
-        "3": "1.16",
-        "4": "1.25"
-        }[this.dataset.size]);
+    body.classList.add("uw-text-" + this.dataset.size);
 
     setActive("[data-size]", this);
   });
