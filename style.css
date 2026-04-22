@@ -73,7 +73,7 @@
         .nav-links ul li a{
             color: #fff;
             text-decoration: none;
-            font-size: 15px;
+            font-size: 0.8125rem;
         }
         .nav-links ul li::after{
             content: '';
@@ -109,12 +109,11 @@
             text-align: center;
         }
         .text-box h1{
-            font-size: 62px;
-
+            font-size: 3.875rem;
         }
         .text-box p{
             margin: 10px 0 40px;
-            font-size: 20px;
+            font-size: 1.25rem;
             color: #fff;
         }
     /*--Makes Visit Us to Know More button*/
@@ -124,7 +123,7 @@
             color: #fff;
             border: 1px solid #fff;
             padding: 12px 34px;
-            font-size: 13px;
+            font-size: 0.8125rem;
             background: transparent;
             position: relative;
             cursor: pointer;
@@ -141,7 +140,7 @@
         /*--Makes it phone friendly--*/
         @media(max-width: 700px){
         .text-box h1{ 
-            font-size: 40px;
+            font-size: 2.5rem;
         }
             
         }
@@ -168,7 +167,7 @@
     }
  
     .need h2{
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
         padding-bottom: 20px;
         margin: auto;
@@ -189,12 +188,12 @@
         padding: 25px;
     }
     .need figcaption {
-        font-size: 14px; 
+        font-size: 0.875rem; 
         text-align: center; 
         margin-top: 5px; 
     }
     .need p{
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 400;
         line-height: 30px;
         text-align: left;
@@ -211,7 +210,7 @@
             padding-bottom: 0px;
         }
         .need p{
-            font-size: 18px;
+            font-size: 1.125rem;
             padding-bottom: 5px;
         }
         .need img{
@@ -228,7 +227,7 @@
     }
  
     .solution h2{
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
         padding-bottom: 20px;
         margin: auto;
@@ -244,7 +243,7 @@
         
     }
     .solution p{
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 400;
         line-height: 30px;
         text-align: left;
@@ -272,7 +271,7 @@
         }
         
         .solution p{
-            font-size: 18px;
+            font-size: 1.125rem;
             padding-bottom: 15px;
         }
     }
@@ -357,12 +356,12 @@
         justify-content: center;
     }
     .purpose h2{
-        font-size: 40px;
+        font-size: 2.5rem;
         padding-top: 50px;
         padding-bottom: 10px;
     }
     .purpose p{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .purpose-col{
         flex-direction: column; 
@@ -374,7 +373,7 @@
     }
     .purpose-box p {
             line-height: 1.5;
-            font-size: 20px;
+            font-size: 1.25rem;
             padding: 0;
         }
     .purpose-box {
@@ -390,7 +389,7 @@
             padding-top: 0px;
         }
         .purpose p{
-            font-size: 18px;
+            font-size: 1.125rem;
         }
     }
 
@@ -404,7 +403,7 @@
     
     .commit h2{
         text-align: center;
-        font-size: 40px;
+        font-size: 2.5rem;
         padding-top: 50px;
         padding-bottom: 10px;
     }
@@ -427,13 +426,13 @@
     }
     .commit-col p{
         padding: 0;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .commit-col h3{
         margin-top: 16px;
         margin-bottom: 15px;
         text-align: center;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
     @media(max-width: 700px){
         .commit{
@@ -449,10 +448,10 @@
         }
         .commit h3{
             padding-top: 20px;
-            font-size: 25px;
+            font-size: 1.5625rem;
         }
         .commit p{
-            font-size: 18px;
+            font-size: 1.125rem;
         }
     }
 
@@ -491,7 +490,7 @@
      }
      @media(max-width: 700px){
         .cta h2{
-            font-size: 24px;
+            font-size: 1.5rem;
         }
      }
 
@@ -557,7 +556,7 @@
     }
     .about-col p{
         padding: 15px 0;
-        font-size: 18px;
+        font-size: 1.25rem;
     }
     @media(max-width: 900px){
         .about-col img{
@@ -580,7 +579,7 @@
         width: 500px;
     }
     .consent {
-        font-size: 14px; 
+        font-size: 0.875rem; 
         text-align: center; 
         margin-top: 15px; 
     }
