@@ -1,7 +1,6 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
-  const body = document.documentElement;
+  const body = document.getElementById("uw-page");
 
   function clear(prefix) {
     body.className = body.className

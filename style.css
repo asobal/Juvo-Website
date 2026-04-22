@@ -600,8 +600,223 @@
 
 
 
+/*<!------Accessibility Menu------------Accessibility Menu------------Accessibility Menu------------Accessibility Menu------------Accessibility Menu------------>*/
 
+/* Floating button for widget */
+#uw-widget {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999999;
+  font-family: Arial, sans-serif;
+}
 
+#uw-toggle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 
+  background: #ffffff;
+  color: white;
+  border: none;
 
+  font-size: 24px;
+  cursor: pointer;
 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+
+#uw-toggle:hover {
+  transform: scale(1.1);
+}
+
+#uw-widget i{
+    font-size: 45px;
+    color:#3a2cd4
+}
+
+/* Widget panel */
+#uw-panel {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 300px;
+  max-height: 500px;
+  overflow-y: auto;
+
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  padding: 18px;
+}
+
+#uw-panel h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Panel text boxes */
+.uw-box {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.uw-box span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.uw-box button {
+  margin: 4px 4px 0 0;
+  padding: 6px 10px;
+
+  border-radius: 999px;
+  border: 1px solid #ddd;
+
+  background: #fff;
+  font-size: 15px;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.uw-box button:hover {
+  background: #f1f5f9;
+}
+
+.uw-box button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.uw-box p {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Accessibility Menu Widget Features */
+
+#uw-reset-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#uw-reset {
+  background: #2563eb;
+  color: white;
+  border: none;
+
+  padding: 10px 20px;
+  border-radius: 999px;
+
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+  transition: all 0.2s ease;
+}
+
+#uw-reset:hover {
+  transform: scale(1.05);
+}
+
+/* Active button */
+.uw-box button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.uw-box button {
+  transition: all 0.2s ease;
+}
+/* Oversized widget option */
+#uw-panel.large {
+  width: 400px;
+}
+
+/* Contrast: light and dark */
+#uw-page.uw-contrast-light {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+#uw-page.uw-contrast-light * {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+#uw-page.uw-contrast-dark {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+#uw-page.uw-contrast-dark * {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Text Size */
+#uw-page.uw-text-1 { font-size: 1rem; }
+#uw-page.uw-text-2 { font-size: 1.25rem; }
+#uw-page.uw-text-3 { font-size: 1.35rem; }
+#uw-page.uw-text-4 { font-size: 1.5rem; }
+
+#uw-page.uw-text-2 .hero h1,
+#uw-page.uw-text-3 .hero h1,
+#uw-page.uw-text-4 .hero h1 {
+  font-size: calc(1em * 1.2);
+}
+
+#uw-page.uw-text-2 .hero p,
+#uw-page.uw-text-3 .hero p,
+#uw-page.uw-text-4 .hero p {
+  font-size: calc(1em * 1.15);
+}
+
+#uw-page.uw-text-2 .hero h1 { font-size: 6vw !important; }
+#uw-page.uw-text-3 .hero h1 { font-size: 8vw !important; }
+#uw-page.uw-text-4 .hero h1 { font-size: 10vw !important; }
+
+/* Text spacing */
+#uw-page.uw-space-light * { letter-spacing: 1px !important; }
+#uw-page.uw-space-med * { letter-spacing: 2px !important; }
+#uw-page.uw-space-heavy * { letter-spacing: 3px !important; }
+
+/* Line height */
+#uw-page.uw-line-15 * { line-height: 1.5 !important; }
+#uw-page.uw-line-175 * { line-height: 1.75 !important; }
+#uw-page.uw-line-2 * { line-height: 2 !important; }
+
+/* Alignment */
+#uw-page.uw-align-left * { text-align: left !important; }
+#uw-page.uw-align-center * { text-align: center !important; }
+#uw-page.uw-align-right * { text-align: right !important; }
+
+/* Saturation */
+#uw-page.uw-sat-low { filter: saturate(0.5) !important; }
+#uw-page.uw-sat-high { filter: saturate(1.5) !important; }
+#uw-page.uw-sat-none { filter: grayscale(1) !important; }
+
+/* Highlight links */
+#uw-page.uw-links-on a {
+  background: yellow !important;
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+/* Disable animations */
+#uw-page.uw-anim-off * {
+  animation: none !important;
+  transition: none !important;
+}
