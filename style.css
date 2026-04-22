@@ -325,7 +325,7 @@ body {
     }
     .component-text p{
         padding: 15px 0px;
-        font-size: 1.25rem;
+        font-size: 20px;
         flex: 1;
     }
     @media (max-width: 900px) {
@@ -660,10 +660,6 @@ body {
   padding: 18px;
 }
 
-#uw-panel,
-#uw-panel * {
-  font-size: 14px;
-}
 #uw-panel h2 {
   font-size: 18px;
   font-weight: 600;
@@ -779,19 +775,29 @@ body {
 }
 
 /* Text Size */
-#uw-page {
+/* === ACCESSIBILITY TEXT SCALING FIX === */
+#uw-page.uw-text-1 {
   --uw-scale: 1;
 }
 
-/* Apply scaling consistently across ALL text */
-#uw-page {
-  --uw-scale: 1;
+#uw-page.uw-text-2 {
+  --uw-scale: 1.15;
 }
 
-/* Only scale real text elements, NOT everything */
-#uw-page {
-  --uw-scale: 1;
-  font-size: calc(1rem * var(--uw-scale));
+#uw-page.uw-text-3 {
+  --uw-scale: 1.3;
+}
+
+#uw-page.uw-text-4 {
+  --uw-scale: 1.5;
+}
+
+/* Apply scaling to actual content */
+#uw-page.uw-text-1 *,
+#uw-page.uw-text-2 *,
+#uw-page.uw-text-3 *,
+#uw-page.uw-text-4 * {
+  font-size: calc(var(--uw-scale, 1) * 1em) !important;
 }
 
 /* Text spacing */
