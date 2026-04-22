@@ -510,8 +510,7 @@
 
 
 
-
-
+     
 /*<!------Opening About------------Opening About------------Opening About------------Opening About------------Opening About-------->*/
 
     .sub-header{
@@ -752,9 +751,10 @@
 }
 
 /* Text Size */
-#uw-page.uw-text-2 * { font-size: 1.05em !important; }
-#uw-page.uw-text-3 * { font-size: 1.1em !important; }
-#uw-page.uw-text-4 * { font-size: 1.15em !important; }
+#uw-page.uw-text-1 { font-size: 1rem; }
+#uw-page.uw-text-2 { font-size: 1.05rem; }
+#uw-page.uw-text-3 { font-size: 1.1rem; }
+#uw-page.uw-text-4 { font-size: 1.15rem; }
 
 #uw-page.uw-text-2 .hero h1,
 #uw-page.uw-text-3 .hero h1,
