@@ -774,10 +774,17 @@
 #uw-page.uw-text-4 .need p {
   font-size: calc(1em * 1.25);
 }
+
+#uw-page.uw-text-2 .need h2,
+#uw-page.uw-text-3 .need h2,
+#uw-page.uw-text-4 .need h2 {
+  font-size: calc(1em * 1.25);
+}
+/*
 #uw-page.uw-text-2 .need h2 { font-size: 3.3vw !important; }
 #uw-page.uw-text-3 .need h2 { font-size: 3.7vw !important; }
 #uw-page.uw-text-4 .need h2 { font-size: 4vw !important; }
-
+*/
 #uw-page.uw-text-2 .solution p,
 #uw-page.uw-text-3 .solution p,
 #uw-page.uw-text-4 .solution p {
