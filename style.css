@@ -762,7 +762,7 @@
 #uw-page.uw-text-2 .hero h1,
 #uw-page.uw-text-3 .hero h1,
 #uw-page.uw-text-4 .hero h1 {
-  font-size: calc(1em * 2.5);
+  font-size: calc(1em * 3.5);
 }
 
 #uw-page.uw-text-2 .need figcaption,
@@ -840,7 +840,7 @@
 #uw-page.uw-text-2 .commit-col h3,
 #uw-page.uw-text-3 .commit-col h3,
 #uw-page.uw-text-4 .commit-col h3 {
-  font-size: calc(1em * 2.5);
+  font-size: calc(1em * 2);
 }
 #uw-page.uw-text-2 .commit h2,
 #uw-page.uw-text-3 .commit h2,
@@ -851,6 +851,12 @@
 #uw-page.uw-text-2 .consent,
 #uw-page.uw-text-3 .consent,
 #uw-page.uw-text-4 .consent {
+  font-size: calc(1em * 1.01);
+}
+
+#uw-page.uw-text-2 .about-col p,
+#uw-page.uw-text-3 .about-col p,
+#uw-page.uw-text-4 .about-col p {
   font-size: calc(1em * 1.25);
 }
 
