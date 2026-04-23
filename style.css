@@ -778,7 +778,7 @@
 #uw-page.uw-text-2 .need h2,
 #uw-page.uw-text-3 .need h2,
 #uw-page.uw-text-4 .need h2 {
-  font-size: calc(1em * 1.25);
+  font-size: calc(1em * 4);
 }
 /*
 #uw-page.uw-text-2 .need h2 { font-size: 3.3vw !important; }
