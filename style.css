@@ -759,9 +759,11 @@
   font-size: calc(1em * 1.15);
 }
 
-#uw-page.uw-text-2 .hero h1 { font-size: 6vw !important; }
-#uw-page.uw-text-3 .hero h1 { font-size: 7vw !important; }
-#uw-page.uw-text-4 .hero h1 { font-size: 8vw !important; }
+#uw-page.uw-text-2 .hero h1,
+#uw-page.uw-text-3 .hero h1,
+#uw-page.uw-text-4 .hero h1 {
+  font-size: calc(1em * 2.5);
+}
 
 #uw-page.uw-text-2 .need figcaption,
 #uw-page.uw-text-3 .need figcaption,
@@ -780,11 +782,7 @@
 #uw-page.uw-text-4 .need h2 {
   font-size: calc(1em * 2.5);
 }
-/*
-#uw-page.uw-text-2 .need h2 { font-size: 3.3vw !important; }
-#uw-page.uw-text-3 .need h2 { font-size: 3.7vw !important; }
-#uw-page.uw-text-4 .need h2 { font-size: 4vw !important; }
-*/
+
 #uw-page.uw-text-2 .solution p,
 #uw-page.uw-text-3 .solution p,
 #uw-page.uw-text-4 .solution p {
@@ -812,7 +810,48 @@
 #uw-page.uw-text-2 .component-text h3,
 #uw-page.uw-text-3 .component-text h3,
 #uw-page.uw-text-4 .component-text h3 {
+  font-size: calc(1em * 2);
+}
+
+#uw-page.uw-text-2 .purpose p,
+#uw-page.uw-text-3 .purpose p,
+#uw-page.uw-text-4 .purpose p {
+  font-size: calc(1em * 1.25);
+}
+
+#uw-page.uw-text-2 .purpose h2,
+#uw-page.uw-text-3 .purpose h2,
+#uw-page.uw-text-4 .purpose h2 {
   font-size: calc(1em * 2.5);
+}
+
+#uw-page.uw-text-2 .purpose-box p,
+#uw-page.uw-text-3 .purpose-box p,
+#uw-page.uw-text-4 .purpose-box p {
+  font-size: calc(1em * 1.25);
+}
+
+#uw-page.uw-text-2 .commit-col p,
+#uw-page.uw-text-3 .commit-col p,
+#uw-page.uw-text-4 .commit-col p {
+  font-size: calc(1em * 1.25);
+}
+
+#uw-page.uw-text-2 .commit-col h3,
+#uw-page.uw-text-3 .commit-col h3,
+#uw-page.uw-text-4 .commit-col h3 {
+  font-size: calc(1em * 2.5);
+}
+#uw-page.uw-text-2 .commit h2,
+#uw-page.uw-text-3 .commit h2,
+#uw-page.uw-text-4 .commit h2 {
+  font-size: calc(1em * 2.5);
+}
+
+#uw-page.uw-text-2 .consent,
+#uw-page.uw-text-3 .consent,
+#uw-page.uw-text-4 .consent {
+  font-size: calc(1em * 1.25);
 }
 
 /* Text spacing */
