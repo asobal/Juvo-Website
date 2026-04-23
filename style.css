@@ -766,7 +766,7 @@
 #uw-page.uw-text-2 .need figcaption,
 #uw-page.uw-text-3 .need figcaption,
 #uw-page.uw-text-4 .need figcaption {
-  font-size: calc(1em * 1.25);
+  font-size: calc(1em * 1.1);
 }
 
 #uw-page.uw-text-2 .need p,
@@ -774,9 +774,9 @@
 #uw-page.uw-text-4 .need p {
   font-size: calc(1em * 1.25);
 }
-#uw-page.uw-text-2 .need h2 { font-size: 4vw !important; }
-#uw-page.uw-text-3 .need h2 { font-size: 5vw !important; }
-#uw-page.uw-text-4 .need h2 { font-size: 6vw !important; }
+#uw-page.uw-text-2 .need h2 { font-size: 2vw !important; }
+#uw-page.uw-text-3 .need h2 { font-size: 3vw !important; }
+#uw-page.uw-text-4 .need h2 { font-size: 4vw !important; }
 
 /* Text spacing */
 #uw-page.uw-space-light * { letter-spacing: 1px !important; }
