@@ -778,7 +778,7 @@
 #uw-page.uw-text-2 .need h2,
 #uw-page.uw-text-3 .need h2,
 #uw-page.uw-text-4 .need h2 {
-  font-size: calc(1em * 2);
+  font-size: calc(1em * 2.5);
 }
 /*
 #uw-page.uw-text-2 .need h2 { font-size: 3.3vw !important; }
@@ -791,9 +791,11 @@
   font-size: calc(1em * 1.25);
 }
 
-#uw-page.uw-text-2 .solution h2 { font-size: 3.3vw !important; }
-#uw-page.uw-text-3 .solution h2 { font-size: 3.7vw !important; }
-#uw-page.uw-text-4 .solution h2 { font-size: 4vw !important; }
+#uw-page.uw-text-2 .solution h2,
+#uw-page.uw-text-3 .solution h2,
+#uw-page.uw-text-4 .solution h2 {
+  font-size: calc(1em * 2.5);
+}
 
 #uw-page.uw-text-2 .component-text p,
 #uw-page.uw-text-3 .component-text p,
@@ -801,13 +803,17 @@
   font-size: calc(1em * 1.25);
 }
 
-#uw-page.uw-text-2 .component-us h2 { font-size: 3.3vw !important; }
-#uw-page.uw-text-3 .component-us h2 { font-size: 3.7vw !important; }
-#uw-page.uw-text-4 .component-us h2 { font-size: 4vw !important; }
+#uw-page.uw-text-2 .component-us h2,
+#uw-page.uw-text-3 .component-us h2,
+#uw-page.uw-text-4 .component-us h2 {
+  font-size: calc(1em * 2.5);
+}
 
-#uw-page.uw-text-2 .component-text h3 { font-size: 2.7vw !important; }
-#uw-page.uw-text-3 .component-text h3 { font-size: 3vw !important; }
-#uw-page.uw-text-4 .component-text h3 { font-size: 3.3vw !important; }
+#uw-page.uw-text-2 .component-text h3,
+#uw-page.uw-text-3 .component-text h3,
+#uw-page.uw-text-4 .component-text h3 {
+  font-size: calc(1em * 2.5);
+}
 
 /* Text spacing */
 #uw-page.uw-space-light * { letter-spacing: 1px !important; }
