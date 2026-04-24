@@ -247,61 +247,71 @@
 }
 
 /*------Why It's Needed------------Why It's Needed------------Why It's Needed------------Why It's Needed------*/
-.need {
+    .need {
     width: 90%;
     margin: auto;
     padding-top: 80px;
 }
 
-.need h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    padding-bottom: 40px;
+/* REMOVE the big centered header spacing from before */
+.need > h2 {
+    display: none;
 }
 
-/* Layout row */
+/* ROW LAYOUT */
 .need-row {
     display: flex;
     align-items: flex-start;
     gap: 40px;
 }
 
-/* Image side */
+/* IMAGE SIDE (controlled size now) */
 .need-image {
-    flex: 1;
+    flex: 0 0 500px; /* fixed width so it doesn’t grow */
 }
 
 .need-image img {
     width: 100%;
-    max-width: 550px;
+    height: auto;
     border-radius: 12px;
 }
 
 .need-image figcaption {
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
-/* Text side */
+/* TEXT SIDE */
 .need-text {
     flex: 1;
     text-align: left;
 }
 
+/* Header aligned with text */
+.need-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
 .need-text p {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 20px;
 }
 
-/* Mobile */
 @media (max-width: 900px) {
     .need-row {
         flex-direction: column;
     }
 
-    .need-image img {
-        max-width: 100%;
+    .need-image {
+        flex: unset;
+        width: 100%;
+    }
+
+    .need-text h2 {
+        font-size: 2rem;
     }
 
     .need-text p {
