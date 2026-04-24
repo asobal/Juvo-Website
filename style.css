@@ -254,8 +254,10 @@
 }
 
 /* REMOVE the big centered header spacing from before */
-.need > h2 {
-    display: none;
+.need h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 /* ROW LAYOUT */
