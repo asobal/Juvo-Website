@@ -633,7 +633,6 @@
     }
 
 /*<!------Members------------Members------------Members------------Members------------Members------>*/
-
 .members-section {
     width: 90%;
     margin: auto;
@@ -702,14 +701,15 @@
     font-weight: 500;
 }
 
+/* Responsive */
 @media (max-width: 900px) {
-    .work {
+    .members {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
-    .work {
+    .members {
         grid-template-columns: 1fr;
     }
 }
