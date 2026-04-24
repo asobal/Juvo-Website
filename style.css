@@ -549,6 +549,150 @@
             padding: 2.5%; 
         }
     }
+
+/*<!------Members------------Members------------Members------------Members------------Members------>*/
+
+.members-section {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.members-section h2 {
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+}
+
+/* Card styling */
+.member-card {
+    width: 260px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Profile image */
+.member-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #c5034b;
+    margin-bottom: 15px;
+}
+
+/* Name */
+.member-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Major */
+.member-card .major {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* LinkedIn spacing */
+.member-card .linkedin {
+    margin-top: 10px;
+}
+
+.member-card .linkedin a {
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .members {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .members {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*<!------Work------------Work------------Work------------Work------------Work------------Work------>*/
+.work-section {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.work-section h2 {
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+}
+
+.work-card {
+    width: 260px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover movement effect */
+.work-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+.work-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.work-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .work {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .work {
+        grid-template-columns: 1fr;
+    }
+}
+
 /*<!------Photo Gallery------------Photo Gallery------------Photo Gallery------------Photo Gallery------------Photo Gallery------>*/
     
     .gallery{
