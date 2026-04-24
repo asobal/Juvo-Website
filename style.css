@@ -179,7 +179,7 @@
 
 .stats-container {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 340px);
     gap: 30px;
     justify-content: center;
 }
@@ -216,23 +216,21 @@
 
 /* Big stat number */
 .stats-card h3 {
-    font-size: 40px;
+    font-size: 48px;
     color: #c5034b;
     margin-bottom: 10px;
 }
 
-/* Main text */
 .main-text {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-/* Sub text */
 .sub-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #555;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 /* Responsive */
@@ -705,14 +703,14 @@
 }
 
 @media (max-width: 900px) {
-    .members {
-        grid-template-columns: repeat(2, 260px);
+    .work {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
-    .members {
-        grid-template-columns: 260px;
+    .work {
+        grid-template-columns: 1fr;
     }
 }
 
