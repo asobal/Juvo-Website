@@ -1085,6 +1085,48 @@
   font-size: calc(1em * 1.25);
 }
 
+#uw-page.uw-text-2 .member-card .major,
+#uw-page.uw-text-3 .member-card .major,
+#uw-page.uw-text-4 .member-card .major {
+  font-size: calc(1em * 1.25);
+}
+
+#uw-page.uw-text-2 .member-card h3,
+#uw-page.uw-text-3 .member-card h3,
+#uw-page.uw-text-4 .member-card h3 {
+  font-size: calc(1em * 1.25);
+}
+
+#uw-page.uw-text-2 .members-section h2,
+#uw-page.uw-text-3 .members-section h2,
+#uw-page.uw-text-4 .members-section h2 {
+  font-size: calc(1em * 2.5);
+}
+
+#uw-page.uw-text-2 .stats h2,
+#uw-page.uw-text-3 .stats h2,
+#uw-page.uw-text-4 .stats h2 {
+  font-size: calc(1em * 2.5);
+}
+
+#uw-page.uw-text-2 .stats-card h3,
+#uw-page.uw-text-3 .stats-card h3,
+#uw-page.uw-text-4 .stats-card h3 {
+  font-size: calc(1em * 1.25);
+}
+
+#uw-page.uw-text-2 .main-text,
+#uw-page.uw-text-3 .main-text,
+#uw-page.uw-text-4 .main-text {
+  font-size: calc(1em * 1.25);
+}
+
+#uw-page.uw-text-2 .sub-text,
+#uw-page.uw-text-3 .sub-text,
+#uw-page.uw-text-4 .sub-text {
+  font-size: calc(1em * 1.25);
+}
+
 /* Text spacing */
 #uw-page.uw-space-light * { letter-spacing: 1px !important; }
 #uw-page.uw-space-med * { letter-spacing: 2px !important; }
